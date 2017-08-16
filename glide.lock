@@ -1,0 +1,20 @@
+hash: 5801ff5e50eabcb7a88628f6ed67b5a0d5666bf6f55e313fb9d97bbac0117325
+updated: 2017-08-09T23:29:20.540835367-06:00
+imports:
+- name: github.com/awslabs/amazon-ecr-credential-helper
+  version: 16f099b81fce9ba38a7463bf1050594ed1e4dee8
+  subpackages:
+  - ecr-login
+- name: github.com/cncd/queue
+  version: 63b1974bbcc9b4b251ed18f88edc3a643eb64ff7
+- name: github.com/drone/drone
+  version: c8313f8cd8b398becaa46563121a4c5526b1081a
+  subpackages:
+  - model
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/sys
+  version: e42485b6e20ae7d2304ec72e535b103ed350cc02
+  subpackages:
+  - unix
+testImports: []

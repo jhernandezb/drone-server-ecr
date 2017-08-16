@@ -1,0 +1,6 @@
+package: github.com/jhernandezb/drone-server-ecr
+import:
+- package: github.com/drone/drone
+- package: github.com/awslabs/amazon-ecr-credential-helper
+  subpackages:
+  - ecr-login
